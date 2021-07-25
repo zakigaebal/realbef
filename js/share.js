@@ -1,5 +1,5 @@
-const url = 'https://twelvelevetype.netlify.app/';
-const title = '십이간지로 알아보는 연애 유형';
+const url = 'https://namoham.com/realbef';
+const title = '진짜 친구 찾기';
 
 var art = document.querySelector('.art')
 
@@ -24,16 +24,16 @@ function sendKakaoLink(shareTitle, shareDescription, shareImageUrl) {
 			imageUrl:
 				shareImageUrl,
 			link: {
-				mobileWebUrl: 'https://twelvelevetype.netlify.app/',
-				webUrl: 'https://twelvelevetype.netlify.app/',
+				mobileWebUrl: 'https://namoham.com/realbef',
+				webUrl: 'https://namoham.com/realbef',
 			},
 		},
 		buttons: [
 			{
 				title: '나도 테스트 하러가기',
 				link: {
-					mobileWebUrl: 'https://twelvelevetype.netlify.app/',
-					webUrl: 'https://twelvelevetype.netlify.app/',
+					mobileWebUrl: 'https://namoham.com/realbef',
+					webUrl: 'https://namoham.com/realbef',
 				},
 			},
 		],
@@ -84,7 +84,7 @@ function createDescription(){
 			var shareDescription = infoList[11].name;
 			break;		
 	}
-	var shareTitle = '십이간지 연예유형 결과'
+	var shareTitle = '리얼 베프 결과'
 	const shareImageUrl = url + '/img/image/' + imageNumber + '.png';
 	sendKakaoLink(shareTitle, shareDescription, shareImageUrl);
 }
