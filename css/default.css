@@ -1,12 +1,13 @@
 /* 전체 */
+
+* {
+  font-family: "Nanum Pen Script", cursive;
+}
+
 body {
   background-color: rgb(228, 107, 27);
   color: black;
   font-family: "Noto Sans KR", sans-serif;
-}
-
-* {
-  font-family: "Nanum Pen Script", cursive;
 }
 
 article {
